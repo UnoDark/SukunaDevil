@@ -68,7 +68,7 @@ async def start_bot():
             bot_modules += "|{:<15}".format(i)
         j += 1
     print("+===============================================================+")
-    print("|                              ODA                              |")
+    print("|                              HINATA                              |")
     print("+===============+===============+===============+===============+")
     print(bot_modules)
     print("+===============+===============+===============+===============+")
@@ -91,7 +91,7 @@ async def help_command(_, message):
                     ),
                     InlineKeyboardButton(
                         text="✫ Source Code ✫",
-                        url="https://UserLazy.github.io/UserLazy",
+                        url="https://UserLazy.github.io/UnoDark",
                     ),
                 ],
                 [
@@ -100,7 +100,7 @@ async def help_command(_, message):
                         callback_data="stats_callback",
                     ),
                     InlineKeyboardButton(
-                        text="✯ Anime Group ✯", url="t.me/Grup_Anime_Chat"
+                        text="Group", url="t.me/Hangawtss"
                     ),
                 ],
             ]
@@ -112,8 +112,8 @@ async def help_command(_, message):
             [
                 InlineKeyboardButton(text="[► Help ◄]", callback_data="bot_commands"),
                 InlineKeyboardButton(
-                    text="✯ Support Group ✯",
-                    url="https://t.me/OdaSupport",
+                    text=" Support Group ",
+                    url="https://t.me/OneUnoOnly",
                 ),
             ],
             [
@@ -122,7 +122,7 @@ async def help_command(_, message):
                     callback_data="stats_callback",
                 ),
                 InlineKeyboardButton(
-                    text="✯ Anime Group ✯", url="t.me/Grup_Anime_Chat"
+                    text="Group", url="t.me/Hangawtss"
                 ),
             ],
             [
@@ -200,7 +200,7 @@ async def help_button(client, query):
 Hello {query.from_user.first_name}! My name is {BOT_NAME}!
 I'm a group management bot with some usefule features.
 ═════════════════════════════
-Maintained By @RxyMX
+Maintained By @OneUnoOnly
 ═════════════════════════════
 Main commands available[:](https://telegra.ph/file/3c0e87516360f7343668b.jpg)
  ➛ /start: check my Alive in your PM!
@@ -224,7 +224,7 @@ Main commands available[:](https://telegra.ph/file/3c0e87516360f7343668b.jpg)
                     [
                         InlineKeyboardButton("back", callback_data="help_back"),
                         InlineKeyboardButton(
-                            text="✫ OdaXMusic Repo ✫",
+                            text="OdaXMusic Repo",
                             url="https://github.con/UserLazy/Oda_Music",
                         ),
                     ]
