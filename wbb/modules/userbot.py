@@ -34,7 +34,7 @@ __HELP__ = """
 # Eval and Sh module from nana-remix
 
 m = None
-p = Print
+p = print
 r = None
 exec_time = exec_time
 arq = arq
