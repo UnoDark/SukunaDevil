@@ -42,7 +42,7 @@ logging.basicConfig(
     level=logging.ERROR,
     format="[%(asctime)s.%(msecs)03d] %(filename)s:%(lineno)s %(levelname)s: %(message)s",
     datefmt="%m-%d %H:%M",
-    filename=log_file,
+    filename="log_file",
     filemode="w",
 )
 console = logging.StreamHandler()
