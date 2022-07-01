@@ -40,7 +40,7 @@ with open(log_file, "w") as f:
     f.write("PEAK OF LOG FILE")
 logging.basicConfig(
     level=logging.ERROR,
-    format="[%(asctime)s.%(msecs)03d] %(filename)s:%(lineno)s %(levelname)s: %(message)s",
+    format="[%(asctime)s. %(msecs)03d] %(filename)s: %(lineno)s: %(levelname)s:%(message)s",
     datefmt="%m-%d %H:%M",
     filename="log_file",
     filemode="w",
