@@ -1,4 +1,4 @@
-FROM python:3.9.5-wbb
+FROM python:3.9.5-buster
 
 WORKDIR /wbb
 RUN chmod 777 /wbb
